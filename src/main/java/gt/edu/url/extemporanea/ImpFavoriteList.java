@@ -113,10 +113,11 @@ public class ImpFavoriteList<E> implements FavoriteList<E> {
      * Elimina la cuenta de accesos del elemento
      * @param e elemento
      */
+    
+    
     @Override
     public void reset(E e) {
         Position<Item<E>> p = findPosition(e);
-        if (p != null)
             p.getElement().reset();
     }
 }
