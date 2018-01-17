@@ -1,3 +1,3 @@
 # extemporaneapa2018
-Evaluación extemporanea programación avanzada 2018
-José Carlos Herrera Franco Carne:  1007217 
+# Evaluación extemporanea programación avanzada 2018
+# José Carlos Herrera Franco Carne:  1007217 
