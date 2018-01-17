@@ -1,7 +1,7 @@
 package gt.edu.url.extemporanea.test;
 
 import gt.edu.url.extemporanea.FavoriteList;
-import gt.edu.url.extemporanea.impl.ImplFavoriteList;
+import gt.edu.url.extemporanea.ImpFavoriteList;
 import static org.junit.Assert.*;
 import org.junit.Test;
 /**
@@ -9,7 +9,7 @@ import org.junit.Test;
  * @author tuxtor
  */
 public class FavoritesListTest {
-    FavoriteList<Integer> leList = new ImplFavoriteList<>();
+    FavoriteList<Integer> leList = new ImpFavoriteList<>();
     
     
     @Test

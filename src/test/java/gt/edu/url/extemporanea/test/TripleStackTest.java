@@ -1,6 +1,6 @@
 package gt.edu.url.extemporanea.test;
 
-import gt.edu.url.extemporanea.impl.ImplTripleStack;
+import gt.edu.url.extemporanea.ImpTripleStack;
 import org.junit.Assert;
 import org.junit.Test;
 import gt.edu.url.extemporanea.TripleStack;
@@ -10,7 +10,7 @@ import gt.edu.url.extemporanea.TripleStack;
  * @author tuxtor
  */
 public class TripleStackTest {
-    TripleStack<Integer> laLista = new ImplTripleStack<>();
+    TripleStack<Integer> laLista = new ImpTripleStack<>();
     public TripleStackTest() {
         laLista.redPush(1);
         laLista.redPush(2);
